@@ -1,7 +1,7 @@
 # Project Overview: create a recommendation system using videos from YouTube.com
 # Final product: recommentation video system hosted on a cloud servive 
 
-Key steps to be noticed:
+**Key steps to be noticed:**
  - add a threshold or videos ranking.
  - final production in a Production environment will be web app will the video links and ordered.
  - add and evaluate metrics to the problem:
