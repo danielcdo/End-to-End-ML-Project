@@ -18,3 +18,7 @@ Possible questions to be asked:
 - please choice a simple problem: sale raising, time series(prevision, cancellation)
 - minimum features required: videos attributes and a label
 - few features to start from Zero: search queries that contain - machine, learning, kaggle, data science
+
+
+**Status:** In Progress
+
