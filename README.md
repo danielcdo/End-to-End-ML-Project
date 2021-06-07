@@ -1,3 +1,5 @@
+# **Status:** In Progress
+
 # Project Overview: create a recommendation system using videos from YouTube.com
 # Final product: recommentation video system hosted on a cloud servive 
 
@@ -20,5 +22,5 @@ Possible questions to be asked:
 - few features to start from Zero: search queries that contain - machine, learning, kaggle, data science
 
 
-**Status:** In Progress
+
 
