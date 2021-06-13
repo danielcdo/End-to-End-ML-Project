@@ -22,7 +22,7 @@ Possible questions to be asked:
 
 # Project in a nutshell
 
-1. Problem well defined:
+### 1. Problem well defined:
   - Streamline the time to select a video to watch using key words on You Tube.
   - Automated process to avoid seaching for new videos.
   - Use Data Science techniques be used to solve this problem.
