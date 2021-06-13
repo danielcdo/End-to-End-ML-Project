@@ -18,9 +18,10 @@ Possible issues:
 
 
 Possible questions to be asked:
-- choose the 'correct' problem'. Is it feasible? Can it be done in a short period of time?
-- minimum features required: videos attributes and a label. Are the features valuable?
-- simple search query that contain - machine, learning, kaggle, and data science. Would be the sufficient to predict to recommend new videos with a high prediction score?
+- choose the 'correct' problem'. Is it feasible? Can it be done in a short time?
+- minimum features required: videos attributes and label. Are the features valuable?
+- simple search query that contains - machine, learning, kaggle, and data science as a key words. Would be the features sufficient to get a high score recommending new videos?
+- Will the feature engineering be requested by the statistical model?
 
 # Project in a nutshell
 
