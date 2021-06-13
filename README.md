@@ -49,7 +49,7 @@ The feather format seems to be fast, lightweight, and easy-to-use binary file fo
 ```
 After the **raw data** miner step, then the **labelling** was used to classify videos as: *yes - to watch*, and *not - do not watch*. It was a manual process, but also an active learning method was used.
 
-The active learning was applied to select videos in which the the machine learning model was not able to predict with a high probability - around 50%. Mathematically speaking, it's not a probability, but score to select a video.
+The active learning was applied to select videos in which the the machine learning model was not able to predict with a high probability - around 50%. Mathematically speaking, it's not a probability, but a score to select a video.
 The aim was to try to 'push' the hyperplan for samples on the edge. The machine learning model was having a *hard* time to predict *yes* or *no* and the active learning is a good approach for a situation where labelling may be too expensive.
 
 On the feature engineering phase on the fly: 
