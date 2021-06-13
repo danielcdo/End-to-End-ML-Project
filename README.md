@@ -18,7 +18,7 @@ Possible issues:
 
 
 Possible questions to be asked:
-- choice the 'correct' problem'. Is it feasiable? Can it be done in a short period of time?
+- choose the 'correct' problem'. Is it feasible? Can it be done in a short period of time?
 - minimum features required: videos attributes and a label. Are the features valuable?
 - simple search query that contain - machine, learning, kaggle, and data science. Would be the sufficient to predict to recommend new videos with a high prediction score?
 
