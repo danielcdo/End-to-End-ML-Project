@@ -52,19 +52,10 @@ On the feature engineering phase on the fly:
 - vectorize title using TfidfVectorizer function to return a vectorized sparse matrix. It's an optimize matrix in Scipy where only values NOT equal to zero are returned.
 
 ### 3. Machine Learning Modelling
-Nesta fase, utilizamos os seguintes modelos de machine learning:
 
-Regressão logística;
-LighGBM;
-Random forest.
-Para sua avaliação, escolhemos as métricas que não utilizam ponto de corte. Portanto, usamos a average_precision e ROC_AUC, dando maior importância para a primeira métrica.
+Decison Tree and Random Forest models used as a baseline models. the LighGBM was the first statistical learning model in production environment.
 
-Na etapa envolvendo tunning dos hiperparâmetros, utilizamos o conjunto de argumentos do modelo e do algoritmo de vetorização do título (TfidfVectorizer).
+### Final step - Deploy
 
-Verificamos que o modelo que consegue o melhor valor para métrica average_precision é um ensemble entre a regressão logística e o lightGBM.
-
-Ensemble final = 0.3 * Probabilidade_Regressão_Logistica + 0.7 * Probabilidade_LighGBM
-
-
-
+Final deployment was done using Flask in saved in the Heroku cloud platform service.
 
