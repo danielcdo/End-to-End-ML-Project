@@ -7,8 +7,10 @@
  - add a threshold or videos ranking.
  - the final product will be a web application.
  - add and evaluate metrics to the problem:
-   - 1st metric: from the top N videos, how many videos the user will be added to the list to be watched later?
-   - 2nd metric: how long the video needs to be to be selected?
+   - 1st metric: from the top N videos. How many videos will be added to the list?
+   - 2nd metric: video size to be to be selected?
+   - 3rd: does the number of views impact the model?
+   - 4th: does the video title affect the model?
 
 Possible issues:
  - feature noises: how long the user will take to select a video?
