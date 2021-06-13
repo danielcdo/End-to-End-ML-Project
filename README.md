@@ -33,8 +33,8 @@ Possible questions to be asked:
 
 ### 2. Data Miner and Exploratory Data Analysis
 
-The data miner was done using the package **youtube_dl**. Scrapying the You Tube page and parsing data features. Raw data selected and saved on feather data format.
-The feather seems to be fast, lightweight, and easy-to-use binary file format for storing data frames.
+The data miner was done using the package **youtube_dl**. Scrapying the You Tube page and parsing data attributes. Raw data selected and saved using a feather data format.
+The feather format seems to be fast, lightweight, and easy-to-use binary file format for storing the data frames.
 
  -  key queries to parse the videos data: machine+learning, data+science, and kaggle.
  
