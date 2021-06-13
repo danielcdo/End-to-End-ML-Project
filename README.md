@@ -58,9 +58,9 @@ On the feature engineering phase on the fly:
 
 ### 3. Machine Learning Modelling
 
-Decison Tree and Random Forest models used as a baseline models. The LighGBM was the first statistical learning model in production environment.
+Decison Tree and Random Forest models used as baseline models. The LighGBM was the first statistical learning model in production environment.
 
 ### 4.Final step - Deploy
 
-Final deployment was done using Flask in saved in the Heroku cloud platform service.
+Final deployment was done using Flask in saved in the Heroku cloud platform service. 
 
