@@ -20,16 +20,16 @@ Possible issues:
 Possible questions to be asked:
 - choose the 'correct' problem'. Is it feasible? Can it be done in a short time?
 - minimum features required: videos attributes and label. Are the features valuable?
-- simple search query that contains - machine, learning, kaggle, and data science as a key words. Would be the features sufficient to get a high score recommending new videos?
+- simple search query that contains - machine, learning, kaggle, and data science as keywords. Would be the features sufficient to get a high score recommending new videos?
 - Will the feature engineering be requested by the statistical model?
 
 # Project in a nutshell
 
-### 1. Problem well defined
-  - Streamline the time to select a video to watch using key words on You Tube.
-  - Automated process to avoid seaching for new videos.
-  - Use Data Science techniques be used to solve this problem.
-  - Deploty the final solution in production, cloud enviroment.
+### 1. Define the problem
+  - Streamline the time to select videos using keywords on You Tube.
+  - Process automation to avoid searching new videos.
+  - Use Data Science techniques to solve this problem.
+  - Deploy the final production solution in a cloud platform service.
 
 ### 2. Data Miner and Exploratory Data Analysis
 
