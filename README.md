@@ -37,9 +37,10 @@ The feather seems to be fast, lightweight, and easy-to-use binary file format fo
  
  Note that 1000 videos were selected.
  
- '''
+ ```
  r = ydl.extract_info("ytsearchdate1000:{}".format(query), download=False)
- '''
+
+```
 
 ### 3. Exploratory Data Analysis - EDA
 
