@@ -5,7 +5,7 @@
 
 **Key steps to be noticed:**
  - add a threshold or videos ranking.
- - the final product will be a web app with videos links.
+ - the final product will be a web application.
  - add and evaluate metrics to the problem:
    - 1st metric: from the top N videos, how many videos the user will be added to the list to be watched later?
    - 2nd metric: how long the video needs to be to be selected?
