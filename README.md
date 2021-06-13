@@ -29,5 +29,8 @@ Possible questions to be asked:
   - Deploty the final solution in production, cloud enviroment.
 
 
+### 2. Exploratory Data Analysis - EDA:
+
+
 
 
