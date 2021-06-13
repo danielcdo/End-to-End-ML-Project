@@ -44,10 +44,26 @@ The feather seems to be fast, lightweight, and easy-to-use binary file format fo
  r = ydl.extract_info("ytsearchdate1000:{}".format(query), download=False)
 
 ```
-After **raw data** miner step, then the **labelling** was used to classify videos as: ###yes - watch###, and ###not - do not watch###. Manual process, but also an active learning method was used. The active learning was used to select videos in which the the machine learning model was not able to predict with a high probability, around 50%.
+After **raw data** miner step, then the **labelling** was used to classify videos as: *yes - to watch*, and *not - do not watch*. Manual process, but also an active learning method was used. The active learning was used to select videos in which the the machine learning model was not able to predict with a high probability, around 50%.
 The aim was to try to 'push' the hyperplan for samples on the edge.
 
-### 3. Exploratory Data Analysis - EDA
+On the feature engineering phase on the fly: 
+- views_per_day
+- vectorize title using TfidfVectorizer function to return a vectorized sparse matrix. It's an optimize matrix in Scipy where only values NOT equal to zero are returned.
+
+### 3. Machine Learning Modelling
+Nesta fase, utilizamos os seguintes modelos de machine learning:
+
+Regressão logística;
+LighGBM;
+Random forest.
+Para sua avaliação, escolhemos as métricas que não utilizam ponto de corte. Portanto, usamos a average_precision e ROC_AUC, dando maior importância para a primeira métrica.
+
+Na etapa envolvendo tunning dos hiperparâmetros, utilizamos o conjunto de argumentos do modelo e do algoritmo de vetorização do título (TfidfVectorizer).
+
+Verificamos que o modelo que consegue o melhor valor para métrica average_precision é um ensemble entre a regressão logística e o lightGBM.
+
+Ensemble final = 0.3 * Probabilidade_Regressão_Logistica + 0.7 * Probabilidade_LighGBM
 
 
 
