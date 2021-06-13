@@ -38,6 +38,9 @@ The feather seems to be fast, lightweight, and easy-to-use binary file format fo
  Note that 1000 videos were selected.
  
  ```
+ # use extract_info from youtube_dl package to parse the data
+# pass the number of videos to fetch --> ytsearchdate1000 (meaning: search by date the first 1000 videos)
+# r: result object variable
  r = ydl.extract_info("ytsearchdate1000:{}".format(query), download=False)
 
 ```
