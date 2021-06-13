@@ -1,7 +1,7 @@
 # **Status:** In Progress
 
 # Project Overview: create a recommendation system using videos from YouTube.com
-# Final product: recommentation video system hosted on a cloud servive 
+# Final product: recommentation video system hosted on a cloud service 
 
 **Key steps to be noticed:**
  - add a threshold or videos ranking.
