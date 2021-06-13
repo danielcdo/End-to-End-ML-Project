@@ -44,7 +44,7 @@ The feather seems to be fast, lightweight, and easy-to-use binary file format fo
  r = ydl.extract_info("ytsearchdate1000:{}".format(query), download=False)
 
 ```
-After **raw data** miner step, then the **labelling** was used to classify videos as: #yes - watch#, and #not - do not watch#. Manual process, but also an active learning method was used. The active learning was used to select videos in which the the machine learning model was not able to predict with a high probability, around 50%.
+After **raw data** miner step, then the **labelling** was used to classify videos as: ###yes - watch###, and ###not - do not watch###. Manual process, but also an active learning method was used. The active learning was used to select videos in which the the machine learning model was not able to predict with a high probability, around 50%.
 The aim was to try to 'push' the hyperplan for samples on the edge.
 
 ### 3. Exploratory Data Analysis - EDA
