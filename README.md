@@ -1,6 +1,6 @@
 # **Status:** In Progress
 
-# **Project Overview**: create a recommendation system using videos from YouTube.com
+# Project Overview: create a recommendation system using videos from YouTube.com
 # Final product: recommentation video system hosted on a cloud service 
 
 **Key steps to be noticed:**
