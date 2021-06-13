@@ -5,7 +5,7 @@
 
 **Key steps to be noticed:**
  - add a threshold or videos ranking.
- - the final product will be a web app of the the videos links and  and all videos ordered.
+ - the final product will be a web app with videos links.
  - add and evaluate metrics to the problem:
    - 1st metric: from the top N videos, how many videos the user will be added to the list to be watched later?
    - 2nd metric: how long the video needs to be to be selected?
@@ -18,7 +18,12 @@ Possible issues:
 Possible questions to be asked:
 - choice the 'correct' problem'. Is it feasiable? Can it be done in a short period of time?
 - minimum features required: videos attributes and a label. Are the features valuable?
-- simple search query that contain - machine, learning, kaggle, data science. Would be th
+- simple search query that contain - machine, learning, kaggle, and data science. Would be the sufficient to predict to recommend new videos with a high prediction score?
+
+# Project in a nutshell
+
+1. Problem well defined
+ - Streamline the time to select a video to watch using key words.
 
 
 
