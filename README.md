@@ -22,14 +22,26 @@ Possible questions to be asked:
 
 # Project in a nutshell
 
-### 1. Problem well defined:
+### 1. Problem well defined
   - Streamline the time to select a video to watch using key words on You Tube.
   - Automated process to avoid seaching for new videos.
   - Use Data Science techniques be used to solve this problem.
   - Deploty the final solution in production, cloud enviroment.
 
+### 2. Data Miner and Exploratory Data Analysis
 
-### 2. Exploratory Data Analysis - EDA:
+The data miner was done using the package ##youtube_dl##. Scrapying the You Tube page and parsing data features. Raw data selected and saved on feather data format.
+The feather seems to be fast, lightweight, and easy-to-use binary file format for storing data frames.
+
+ -  key queries to parse the videos data: machine+learning, data+science, and kaggle.
+ 
+ Note that 1000 videos were selected.
+ 
+ '''
+ r = ydl.extract_info("ytsearchdate1000:{}".format(query), download=False)
+ '''
+
+### 3. Exploratory Data Analysis - EDA
 
 
 
