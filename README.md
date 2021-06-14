@@ -31,7 +31,7 @@ Possible questions to be asked:
   - Use Data Science techniques to solve this problem.
   - Deploy the final production solution in a cloud platform service.
 
-### 2. Data Miner and Exploratory Data Analysis
+### 2. Data Miner and Exploratory Data Analysis (EDA)
 
 The data miner was done using the package **youtube_dl**. Scrapying the You Tube page and parsing data attributes. Raw data selected and saved using a feather data format.
 The feather format seems to be fast, lightweight, and easy-to-use binary file format for storing the data frames.
