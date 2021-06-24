@@ -66,7 +66,7 @@ A simple combination between the models seem to have better metrics.
 Metrics used: Average precision and ROC AUC.
 
 ```
-Final Ensemble: 0.5*(prob. of random forest) + 0.5*p(rob. of LGBM)
+Final Ensemble: 0.5*(prob. of random forest) + 0.5*(prob. of LGBM)
 ```
 
 Now, any new sample will be validade against the title vectorize model (handling the titles), LGBM, and random forest.
