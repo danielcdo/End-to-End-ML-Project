@@ -1,7 +1,7 @@
 # **Status:** In Progress. 
 - Models trained and saved. 
 - Working on the deployment to Heroku cloud platform service!
-==================================================================================================
+==============================================================================
 # Project Overview: create a recommendation system using videos from YouTube.com
 # Final product: recommentation video system hosted on a cloud service 
 
