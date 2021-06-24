@@ -59,13 +59,17 @@ On the feature engineering phase on the fly:
 ### 3. Machine Learning Modelling
 
 Decison Tree and Random Forest models used as baseline models. The LighGBM was the first statistical learning model in production environment.
-However, the final statistical model used in production is a ensemble: LighGBM, Random Forest, and Logistic Regression.
+However, the final statistical model used in production is an ensemble: LighGBM, and Random Forest.
 
-A simple mean between the models seem to have better metrics. Metrics used: Average precision and ROC AUC.
-```
-Final Ensemble: (prob. of logistic regression + prob. random forest + prob. LGBM) / 3
+A simple combination between the models seem to have better metrics.
+
+Metrics used: Average precision and ROC AUC.
 
 ```
+Final Ensemble: 0.5*prob. random forest + 0.5*prob. LGBM
+```
+
+Now, any new sample will be validade against the title vectorize model (handling the titles), LGBM, and random forest.
 
 ### 4. Final step - Deploy
 
